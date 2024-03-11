@@ -13,7 +13,7 @@ function App() {
         backgroundColor: darkTheme ? "#282C35" : "white",
       }}
     >
-      <InshortTabs />
+      <InshortTabs/>
     </View>
   );
 }

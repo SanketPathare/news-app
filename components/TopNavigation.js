@@ -51,7 +51,7 @@ const TopNavigation = ({ index, setIndex }) => {
       {index ? (
         <TouchableOpacity
           style={styles.right}
-          onPress={() => fetchNews("general")}
+          onPress={() => fetchNews("sports")}
         >
           <Text style={styles.text}>
             <AntDesign name="reload1" size={24} color="orange" />
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "orange",
     borderBottomWidth: 5,
     borderRadius: 10,
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "700",
   },
   left: {
@@ -100,7 +100,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   text: {
-    fontSize: 16,
+    fontSize: 15,
+    fontWeight:"bold"
   },
   right: {
     width: 80,

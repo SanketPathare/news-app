@@ -3,33 +3,33 @@
 export const categories = [
   {
     code: "",
-    pic: "https://img.icons8.com/fluent/96/000000/news.png",
+    pic: "https://img.icons8.com/ios-filled/50/FD7E14/news.png",
     name: "general",
   },
   {
     code: "",
-    pic: "https://img.icons8.com/fluent/96/000000/hard-working.png",
+    pic: "https://img.icons8.com/ios-filled/50/FD7E14/briefcase.png",
     name: "business",
   },
   {
     code: "",
-    pic: "https://img.icons8.com/fluent/96/000000/movie-projector.png",
+    pic: "https://img.icons8.com/glyph-neue/64/FD7E14/movie-projector.png",
     name: "entertainment",
   },
   {
-    pic: "https://img.icons8.com/fluent/96/000000/stethoscope.png",
+    pic: "https://img.icons8.com/ios-filled/50/FD7E14/clinic.png",
     name: "health",
   },
   {
-    pic: "https://img.icons8.com/fluent/96/000000/microscope.png",
+    pic: "https://img.icons8.com/ios-filled/50/FD7E14/test-tube.png",
     name: "science",
   },
   {
-    pic: "https://img.icons8.com/fluent/96/000000/trophy.png",
+    pic: "https://img.icons8.com/ios/50/FD7E14/football2.png",
     name: "sports",
   },
   {
-    pic: "https://img.icons8.com/fluent/96/000000/artificial-intelligence.png",
+    pic: "https://img.icons8.com/ios-filled/50/FD7E14/innovation.png",
     name: "technology",
   },
 ];
@@ -75,7 +75,7 @@ export const sources = [
   {
     id: "fox-news",
     name: "Fox News",
-    pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/768px-Fox_News_Channel_logo.svg.png",
+    pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/480px-Fox_News_Channel_logo.svg.png",
   },
   {
     id: "google-news",

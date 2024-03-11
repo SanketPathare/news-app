@@ -52,7 +52,7 @@ const DiscoverScreen = () => {
         inactiveSlideOpacity={1}
       />
       <Text
-        style={{ ...styles.subtitle, color: darkTheme ? "white" : "black"}}
+        style={{ ...styles.subtitle, color: darkTheme ? "white" : "black" }}
       >
         Sources
       </Text>
@@ -75,7 +75,7 @@ export default DiscoverScreen;
 
 const styles = StyleSheet.create({
   discover: {
-    padding: 10,
+    padding: 15,
     alignItems: "center",
   },
   subtitle: {
@@ -95,12 +95,12 @@ const styles = StyleSheet.create({
     justifyContent: "space-evenly",
   },
   categoryImage: {
-    height: "60%",
+    height: "40%",
     width: "100%",
     resizeMode: "contain",
   },
   name: {
-    fontSize: 14,
+    fontSize: 13,
     textTransform: "capitalize",
   },
   sources: {
@@ -110,12 +110,11 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
   },
   sourceContainer: {
-    height: 150,
+    height: 140,
     width: "40%",
     borderRadius: 10,
     margin: 15,
-    backgroundColor: "#ff0b20",
-  
+    backgroundColor: "#f0e4e5",
   },
   sourceImage: {
     height: "100%",
