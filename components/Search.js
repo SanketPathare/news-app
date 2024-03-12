@@ -48,7 +48,7 @@ const Search = () => {
         placeholderTextColor={darkTheme ? "white" : "grey"}
       />
       <View style={styles.searchResults}>
-        {searchResults.slice(0, 0).map((n) => (
+        {searchResults.slice(0, 5).map((n) => (
           <TouchableOpacity
             key={n.title}
             activeOpacity={0.7}

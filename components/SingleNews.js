@@ -48,7 +48,7 @@ const SingleNews = ({ item, index, darkTheme }) => {
           </Text>
         </Text>
       </View>
-      {/* <ImageBackground
+       <ImageBackground
         blurRadius={30}
         style={styles.footer}
         source={{ uri: item.urlToImage }}
@@ -57,11 +57,11 @@ const SingleNews = ({ item, index, darkTheme }) => {
           <Text style={{ fontSize: 15, color: "white" }}>
             '{item?.content?.slice(0, 45)}...'
           </Text>
-          <Text style={{ fontSize: 17, fontWeight: "bold", color: "white" }}>
+          <Text style={{ fontSize: 17, fontWeight: "bold", color: "white"}}>
             Read More
           </Text>
         </TouchableOpacity>
-      </ImageBackground> */}
+      </ImageBackground> 
     </View>
   );
 };
